@@ -1,8 +1,8 @@
 require 'bundler/setup'
-require 'sqlite3'
-require 'pry'
+#require 'sqlite3'
+#require 'pry'
 
-require_relative '../db/migrate/01_create_students'
+#require_relative '../db/migrate/01_create_students'
 
 Bundler.require
 
