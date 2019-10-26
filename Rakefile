@@ -22,4 +22,8 @@ namespace :db do
     File.delete('db/schema.rb')
     drop_db
   end
+  
+  desc 'migrate changes to your database'  
+  task :migrate => :environment do
+    CreateStudents.change
 end
